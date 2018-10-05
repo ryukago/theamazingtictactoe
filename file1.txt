@@ -1,0 +1,418 @@
+TICTACTOE -Player First-
+TRANSITION FUNCTION :
+  q1 - O000X0000 MORE
+    p = 2 : q2
+    p = 3 : q3
+    p = 4 : q4
+    p = 6 : q5
+    p = 7 : q6
+    p = 8 : q7
+    p = 9 : q8
+    p = 0 : 0
+X
+  q2 - OX00X00O0 MORE
+    p = 3 : q9
+    p = 4 : q10
+    p = 6 : q11
+    p = 7 : q12
+    p = 9 : q13
+    p = 0 : 0
+X
+  q3 - O0X0X0O00 MORE
+    p = 2 : q14
+    p = 4 : q15
+    p = 6 : q16
+    p = 8 : q17
+    p = 9 : q18
+    p = 0 : 0
+X
+  q4 - O00XXO000 MORE
+    p = 2 : q10
+    p = 4 : q15
+    p = 6 : q19
+    p = 8 : q20
+    p = 9 : q21
+    p = 0 : 0
+X
+  q5 - O00OXX000 MORE
+    p = 2 : q22
+    p = 3 : q16
+    p = 7 : q23
+    p = 8 : q24
+    p = 9 : q25
+    p = 0 : 0
+X
+  q6 - O0O0X0X00 MORE
+    p = 2 : q26
+    p = 4 : q27
+    p = 6 : q28
+    p = 8 : q29
+    p = 9 : q30
+    p = 0 : 0
+X
+  q7 - OO00X00X0 MORE
+    p = 3 : q31
+    p = 4 : q32
+    p = 6 : q33
+    p = 7 : q29
+    p = 9 : q34
+    p = 0 : 0
+X
+  q8 - O0O0X000X MORE
+    p = 2 : q35
+    p = 4 : q36
+    p = 6 : q37
+    p = 7 : q30
+    p = 8 : q34
+    p = 0 : 0
+X
+  q9 - OXX0X0OO0 MORE
+    p = 4 : q38
+    p = 6 : q39
+    p = 9 : q40
+    p = 0 : 0
+X
+  q10 - OX0XXO0O0 MORE
+    p = 3 : q41
+    p = 7 : q42
+    p = 9 : q43
+    p = 0 : 0
+X
+  q11 - OX0OXX0O0 MORE
+    p = 3 : q39
+    p = 7 : q44
+    p = 9 : q45
+    p = 0 : 0
+X
+  q12 - OXO0X0XO0 MORE
+    p = 4 : q42
+    p = 6 : q44
+    p = 9 : q46
+    p = 0 : 0
+X
+  q13 - OX00X0OOX MORE
+    p = 3 : q40
+    p = 4 : q47
+    p = 6 : q45
+    p = 0 : 0
+X
+  q14 - OXXOX0O00 WIN
+X
+  q15 - O0XXXOO00 MORE
+    p = 2 : q41
+    p = 8 : q48
+    p = 9 : q49
+    p = 0 : 0
+X
+  q16 - O0XOXXO00 WIN
+X
+  q17 - O0XOX0OX0 WIN
+X
+  q18 - O0XOX0O0X WIN
+X
+  q19 - OX00X0OOX MORE
+    p = 2 : q50
+    p = 8 : q51
+    p = 9 : q52
+    p = 0 : 0
+X
+  q20 - OX00X0OOX MORE
+    p = 3 : q48
+    p = 7 : q53
+    p = 9 : q54
+    p = 0 : 0
+X
+  q21 - OX00X0OOX MORE
+    p = 3 : q55
+    p = 7 : q52
+    p = 8 : q54
+    p = 0 : 0
+X
+  q22 - OX0OXXO00 WIN
+X
+  q23 - O0OOXXX00 MORE
+    p = 2 : q44
+    p = 8 : q56
+    p = 9 : q57
+    p = 0 : 0
+X
+  q24 - O00OXXOX0 WIN
+X
+  q25 - O00OXXO0X WIN
+X
+  q26 - OXO0X0XO0 MORE
+    p = 4 : q42
+    p = 6 : q44
+    p = 9 : q46
+    p = 0 : 0
+X
+  q27 - OOOXX0X00 WIN
+X
+  q28 - OOO0XXX00 WIN
+X
+  q29 - OOO0X0XX0 WIN
+X
+  q30 - OOO0X0X0X WIN
+X
+  q31 - OOX0X0OX0 MORE
+    p = 4 : q48
+    p = 6 : q58
+    p = 9 : q59
+    p = 0 : 0
+X
+  q32 - OOOXX00X0 WIN
+X
+  q33 - OOO0XX0X0 WIN
+X
+  q34 - OOO0X00XX WIN
+X
+  q35 - OXO0X00OX MORE
+    p = 4 : q43
+    p = 6 : q60
+    p = 7 : q46
+    p = 0 : 0
+X
+  q36 - OOOXX000X WIN
+X
+  q37 - OOO0XX00X WIN
+X
+  q38 - OXXXX0OOO WIN
+X
+  q39 - OXXOXXOO0 WIN
+X
+  q40 - OXXOX0OOX WIN
+X
+  q41 - OXXXXOOO0 MORE
+    p = 9 : q61
+    p = 0 : 0
+X
+  q42 - OXOXXOXO0 MORE
+    p = 9 : q62
+    p = 0 : 0
+X
+  q43 - OXOXXO0OX MORE
+    p = 7 : q62
+    p = 0 : 0
+X
+  q44 - OXOOXXXO0 MORE
+    p = 9 : q63
+    p = 0 : 0
+X
+  q45 - OX0OXXOOX WIN
+X
+  q46 - OXOOX0XOX MORE
+    p = 6 : q63
+    p = 0 : 0
+X
+  q47 - OX0XXOOOX MORE
+    p = 3 : q61
+    p = 0 : 0
+X
+  q48 - OOXXXOOX0 MORE
+    p = 9 : q64
+    p = 0 : 0
+X
+  q49 - O0XXXOOOX MORE
+    p = 2 : q65
+    p = 0 : 0
+X
+  q50 - OXOXXOX0O WIN
+X
+  q51 - O0OXXOXXO WIN
+X
+  q52 - OOOXXOX0X WIN
+X
+  q53 - OOOXXOXX0 WIN
+X
+  q54 - OOOXXO0XX WIN
+X
+  q55 - OOXXXOO0X MORE
+    p = 8 : q64
+    p = 0 : 0
+X
+  q56 - OOOOXXXX0 WIN
+X
+  q57 - OOOOXXX0X WIN
+X
+  q58 - OOXOXXOX0 WIN
+X
+  q59 - OOXOX0OXX WIN
+X
+  q60 - OXOOXX0OX MORE
+    p = 7 : q63
+    p = 0 : 0
+X
+  q61 - OXXXXOOOX DRAW
+X
+  q62 - OXOXXOXOX DRAW
+X
+  q63 - OXOOXXXOX DRAW
+X
+  q64 - OOXXXOOXX DRAW
+X
+  q65 - OXOXXOOOX DRAW
+X
+DAFTAR STATE
+
+  // O000X0000 sama seperti :
+  // O | 2 | 3
+  // 4 | X | 6
+  // 7 | 8 | 9
+
+  // S = {X,O,0}
+
+  q0 - kosong
+
+  q1 - O000X0000
+
+  q2 - OX00X00O0
+
+  q3 - O0X0X0O00
+
+  q4 - O00XXO000
+
+  q5 - O00OXX000
+
+  q6 - O0O0X0X00
+
+  q7 - OO00X00X0
+
+  q8 - O0O0X000X
+
+  q9 - OXX0X0OO0
+
+  q10 - OX0XXO0O0
+
+  q11 - OX0OXX0O0
+
+  q12 - OXO0X0XO0
+
+  q13 - OX00X0OOX
+
+  *q14 - OXXOX0O00
+
+  q15 - O0XXXOO00
+
+  *q16 - O0XOXXO00
+
+  *q17 - O0XOX0OX0
+
+  *q18 - O0XOX0O0X
+
+  q19 - OX00X0OOX
+
+  q20 - OX00X0OOX
+
+  q21 - OX00X0OOX
+
+  *q22 - OX0OXXO00
+
+  q23 - O0OOXXX00
+
+  *q24 - O00OXXOX0
+
+  *q25 - O00OXXO0X
+
+  q26 - OXO0X0XO0
+
+  *q27 - OOOXX0X00
+
+  *q28 - OOO0XXX00
+
+  *q29 - OOO0X0XX0
+
+  *q30 - OOO0X0X0X
+
+  q31 - OOX0X0OX0
+
+  *q32 - OOOXX00X0
+
+  *q33 - OOO0XX0X0
+
+  *q34 - OOO0X00XX
+
+  q35 - OXO0X00OX
+
+  *q36 - OOOXX000X
+
+  *q37 - OOO0XX00X
+
+  *q38 - OXXXX0OOO
+
+  *q39 - OXXOXXOO0
+
+  *q40 - OXXOX0OOX
+
+  q41 - OXXXXOOO0
+
+  q42 - OXOXXOXO0
+
+  q43 - OXOXXO0OX
+
+  q44 - OXOOXXXO0
+
+  *q45 - OX0OXXOOX
+
+  q46 - OXOOX0XOX
+
+  q47 - OX0XXOOOX
+
+  q48 - OOXXXOOX0
+
+  q49 - O0XXXOOOX
+
+  *q50 - OXOXXOX0O
+
+  *q51 - O0OXXOXXO
+
+  *q52 - OOOXXOX0X
+
+  *q53 - OOOXXOXX0
+
+  *q54 - OOOXXO0XX
+
+  q55 - OOXXXOO0X
+
+  *q56 - OOOOXXXX0
+
+  *q57 - OOOOXXX0X
+
+  *q58 - OOXOXXOX0
+
+  *q59 - OOXOX0OXX
+
+  q60 - OXOOXX0OX
+
+  *q61 - OXXXXOOOX
+
+  *q62 - OXOXXOXOX
+
+  *q63 - OXOOXXXOX
+
+  *q64 - OOXXXOOXX
+
+  *q65 - OXOXXOOOX
+
+DAFTAR SIMBOL :
+  O (computer)
+  X (player)
+  0 (kosong)
+  S ({O,X,0})
+
+FIRST STATE :
+  q1 : O000X0000
+
+FINAL STATE :
+  // S = {O,X,0}
+
+  WIN :
+    OOOSSSSSS
+    SSSSSSOOO
+    OSSOSSOSS
+    SSOSSOSSO
+
+  DRAW :
+    OSXXXOOSX
+    XSOOXXXSO
+    XOXSXSOXO
+    OXOSXSXOX
