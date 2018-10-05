@@ -1,5 +1,5 @@
 ﻿# THE AMAZING TICTACTOE
- Berjuanglah untuk mengalahkan tictactoe yang amazing ini
+ Berjuanglah untuk memenangkan game tictactoe yang amazing ini
 
 # CARA BERMAIN 
  - Pilih mode permainan (player first / computer first)
