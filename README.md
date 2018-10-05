@@ -8,9 +8,11 @@
  - Berusahalah untuk mengalahkan komputer yang amazing ini!
 
 # PETUNJUK NOMOR KOTAK 
+```
 1 | 2 | 3
 4 | 5 | 6
 7 | 8 | 9
+```
 
 # ATURAN BERMAIN 
  - Jika memilih mode player first, wajib mengisi kotak nomor 5 pertama
